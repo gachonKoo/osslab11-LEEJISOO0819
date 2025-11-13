@@ -1,3 +1,9 @@
-from geo.utils import circle_area
+import geo.utils as utils
 
-print(circle_area(2))
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print('c =', c)
+
+r = 10
+area = utils.circle(r)
+print('area =', area)
